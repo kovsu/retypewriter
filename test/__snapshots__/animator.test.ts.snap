@@ -1,0 +1,407 @@
+// Vitest Snapshot v1
+
+exports[`should > exported > animator 1`] = `
+[
+  {
+    "cursor": -8,
+    "output": "
+  describe('should', () => {
+    it('exported', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -7,
+    "output": "
+  describe('should', () => {
+    it('exporte', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -6,
+    "output": "
+  describe('should', () => {
+    it('export', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -5,
+    "output": "
+  describe('should', () => {
+    it('expor', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -4,
+    "output": "
+  describe('should', () => {
+    it('expo', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -3,
+    "output": "
+  describe('should', () => {
+    it('exp', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -2,
+    "output": "
+  describe('should', () => {
+    it('ex', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": -1,
+    "output": "
+  describe('should', () => {
+    it('e', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 0,
+    "output": "
+  describe('should', () => {
+    it('', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 39,
+    "output": "
+  describe('should', () => {
+    it('h', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 40,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 52,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+       expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 53,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+        expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 54,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+         expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 55,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+          expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 56,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+           expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 57,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+            expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 58,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      e      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 59,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      ex      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 60,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      exp      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 61,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expe      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 62,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expec      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 63,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 64,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 65,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(t      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 66,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(tw      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 67,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 68,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two)      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 69,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 70,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).t      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 71,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).to      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 72,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toE      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 73,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEq      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 74,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqu      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 75,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqua      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 76,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqual      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 77,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqual(      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 78,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqual(2      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 79,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqual(2)      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+  {
+    "cursor": 80,
+    "output": "
+  describe('should', () => {
+    it('hi', () => {
+      expect(two).toEqual(2)
+      expect(one).toEqual(1)
+    })
+  })
+",
+  },
+]
+`;

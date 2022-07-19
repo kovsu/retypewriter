@@ -1,7 +1,5 @@
-import _TypeIt from 'typeit'
-import { calculatePath, diff } from './src'
+import { calculatePath, createAnimator, diff } from './src'
 
-const TypeIt = _TypeIt as any
 const inputEl = document.getElementById('input')! as HTMLInputElement
 const outputEl = document.getElementById('output')! as HTMLInputElement
 const typeEl = document.getElementById('typing')! as HTMLInputElement
@@ -26,51 +24,36 @@ let output = `
 inputEl.value = input
 outputEl.value = output
 
-let typeit: any
+function sleep(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
 
-function start() {
-  if (typeit)
-    typeit.reset()
+let timeout: number
+function debounce(func: Function, wait: number) {
+  if (timeout)
+    clearTimeout(timeout)
+  timeout = setTimeout(func, wait)
+}
 
-  typeit = new TypeIt(typeEl, {
-    speed: 50,
-    startDelay: 900,
-  })
-
-  const patches = calculatePath(diff(input, output))
+async function start() {
+  const _input = input
+  const patches = calculatePath(diff(_input, output))
+  const animator = createAnimator(_input, patches)
   // console, log(patches)
-  typeit
-    .type(input, { instant: true })
-
-  for (const patch of patches) {
-    typeit
-      .pause(800)
-
-    if (patch.type === 'insert') {
-      typeit
-        .move(null, { to: 'START', instant: true })
-        .move(patch.from, { instant: true })
-        .type(patch.text, { delay: 100 })
-    }
-
-    if (patch.type === 'removal') {
-      typeit
-        .move(patch.from - inputEl.value.length, { instant: true })
-        .delete(patch.length, { delay: 100 })
-    }
+  for (const result of animator) {
+    typeEl.textContent = result.output
+    await sleep(100)
   }
-
-  typeit.go()
 }
 
 start()
 
 inputEl.addEventListener('input', () => {
   input = inputEl.value
-  start()
+  debounce(start, 1000)
 })
 
 outputEl.addEventListener('input', () => {
   output = outputEl.value
-  start()
+  debounce(start, 1000)
 })
